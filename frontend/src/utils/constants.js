@@ -1,4 +1,4 @@
-export const URL = "http://127.0.0.1:4000";
+export const URL = "https://api.petrov-andrey-docker.nomorepartiesco.ru/";
 
 export const MINIMUM_PASSWORD_LENGTH = 3;
 export const MINIMUM_USERNAME_LENGTH = 3;
