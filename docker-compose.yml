@@ -28,7 +28,7 @@ services:
     container_name: postgres
     image: postgres
     volumes:
-      - postgres_data: /data/postgres
+      - postgres_data:/data/postgres
     env_file:
       - .env
     networks:
