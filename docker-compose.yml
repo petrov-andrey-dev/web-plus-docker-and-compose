@@ -12,6 +12,7 @@ services:
       - .env
     networks:
       - backend
+    restart: on-failure 
 
   frontend:
     container_name: kupipodariday-frontend
@@ -23,6 +24,7 @@ services:
       - 8080:80
     networks:
       - frntend
+    restart: on-failure 
 
   postgres:
     container_name: postgres
@@ -33,6 +35,7 @@ services:
       - .env
     networks:
       - backend
+    restart: on-failure 
 
 volumes:
   postgres_data:
